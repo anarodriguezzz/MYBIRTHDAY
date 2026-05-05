@@ -67,11 +67,7 @@ function handleTimeout() {
       velocity: 500,
       fade: false,
     });
-
-    setInterval(() => {
-      document.body.style.backgroundColor = '#' + Math.floor(Math.random()*16777215).toString(16).padStart(6, '0');
-    }, 250);
-
+    
     const cancion = new Audio("parchis.mp3");
     cancion.play();
 
